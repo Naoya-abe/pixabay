@@ -10,6 +10,7 @@ const App = () => {
     try {
       const params = {
         key: APIKey,
+        // key: 'xxxxxxxxxxxxxxxxxxxxxxx',
         q: term,
       };
       const response = await axios.get('https://pixabay.com/api/', { params });
